@@ -56,8 +56,8 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-        
-        
+
+
 	}
 
 /* Grid */
@@ -68,7 +68,7 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
         min-width: 290px;
-        
+
 	}
 
 	.row > * {
@@ -193,7 +193,7 @@
 		width: 100%;
 		clear: none;
 		margin-left: 0;
-        
+
 	}
 
 	.\31 1u, .\31 1u\24 {
@@ -2083,7 +2083,7 @@
 		font-weight: 400;
 		line-height: 1.65;
         text-align: justify;
-        
+
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2140,7 +2140,7 @@
 
 	p {
 		margin: 0 0 2em 0;
-        
+
         min-width:280px;
         font-size: 15px;
         width: 100%;
@@ -2977,7 +2977,7 @@
 		font-family: ""Josefin Slab", serif;;
 		font-size: 0.8em;
 		font-weight: 400;
-        
+
 		height: 3.5em;
 		letter-spacing: 0.075em;
 		line-height: 3.5em;
@@ -3535,7 +3535,7 @@
 
 			#main > .inner {
 				padding: 0 2em 0.1em 4em ;
-                
+
             }
 
 				#main > .inner > section {
@@ -3754,7 +3754,7 @@
 				}
 
 				#sidebar > .inner {
-					
+
 					height: 100%;
 					left: 0;
 					overflow-x: hidden;
@@ -3794,9 +3794,9 @@
 			}
 
 				#sidebar .toggle:before {
-					color: #7f888f;
+					color: #000;
 					margin-left: -0.0625em;
-					margin-top: -0.25em;
+					margin-top: -0.65em;
 					font-size: 1.1rem;
 					z-index: 1;
 				}
@@ -3821,7 +3821,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		
+
 		padding: 1em 0 1em 0;
 		position: relative;
 	}
@@ -3971,7 +3971,7 @@
 		}
 
 		@media screen and (orientation: portrait) and (max-width: 480px) {
-            
+
 			#banner .image {
 				max-height: 35vh;
 			}
@@ -3998,7 +3998,7 @@
 		user-select: none;
 		color: #83929d;
         font-family: "Quattrocento";
-		
+
 		letter-spacing: 0.075em;
 		list-style: none;
 		margin-bottom: 0;
@@ -4208,5 +4208,3 @@
     -webkit-animation: ani-mouse 2.5s linear infinite;
     -moz-animation: ani-mouse 2.5s linear infinite;
     animation: ani-mouse 2.5s linear infinite;
-    
-    
